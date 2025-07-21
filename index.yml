@@ -6,7 +6,7 @@
   metadata:
     description: Advanced performer and site synchronization plugin with multi-source sync (StashDB, ThePornDB, FansDB), intelligent caching, and rate limiting
   version: 1.0.0
-  date: 2025-07-20 23:48:53
+  date: 2025-07-20 23:53:37
   path: plugins/PerformerSiteSync-1.0.0.zip
-  sha256: 500169a0a8333a8ea72b3ad908d2c963a9ddafa81e3c5226da83a0f595b77b47
+  sha256: 457e535ba2922d4acda4fc09b3ad0c8bf32b02c8de8c9323e9398a9f2a321020
   requires: []
