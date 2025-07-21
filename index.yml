@@ -6,7 +6,7 @@
   metadata:
     description: Advanced Stash plugin
   version: 1.0.0
-  date: 2025-07-21 01:09:24
+  date: 2025-07-21 01:10:16
   path: plugins/PerformerSiteSync-1.0.0.zip
   sha256: d6260178ed21b37f9dab000ae98506bd94d619a10c7f613d41c19084bb9138e2
   requires: []
