@@ -1,7 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treeman's Stash Plugins</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        .plugin-source {
+            background: #e8f4fd;
+            border: 2px solid #3498db;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .plugin-source code {
+            background: #fff;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            color: #c0392b;
+            font-weight: bold;
+        }
+        .step {
+            background: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .plugin {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .plugin h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .download-link {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .download-link:hover {
+            text-decoration: underline;
+        }
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 6px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .github-link {
+            display: inline-block;
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .github-link:hover {
+            background: #555;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="container">
+        <h1>🚀 Treeman's Stash Plugins</h1>
+        <p>A collection of advanced plugins for the <a href="https://github.com/stashapp/stash">Stash</a> adult media organizer.</p>
+        
+        <div class="plugin-source">
+            <h2>📦 Plugin Source for Stash Plugin Manager</h2>
+            <p>Add this URL to your Stash Plugin Manager:</p>
+            <code>https://atreemandork.github.io/index.yml</code>
+        </div>
+
+        <h2>🔧 Installation Instructions</h2>
+        
+        <div class="step">
+            <strong>Step 1:</strong> Open Stash and navigate to <strong>Settings → Plugins</strong>
+        </div>
+        
+        <div class="step">
+            <strong>Step 2:</strong> In the "Available Plugins" section, click <strong>"Add Source"</strong>
+        </div>
+        
+        <div class="step">
+            <strong>Step 3:</strong> Enter the source URL: <code>https://atreemandork.github.io/index.yml</code>
+        </div>
+        
+        <div class="step">
+            <strong>Step 4:</strong> Click <strong>"Add"</strong> to save the source
+        </div>
+        
+        <div class="step">
+            <strong>Step 5:</strong> Browse available plugins and click <strong>"Install"</strong> for the ones you want
+        </div>
+
+        <h2>📚 Available Plugins</h2>
+        
+        <div class="plugin">
+            <h3>PerformerSiteSync v1.0.0</h3>
+            <p><strong>Description:</strong> Advanced performer and site synchronization plugin for Stash</p>
+            <p><strong>Features:</strong> Multi-source sync (StashDB, ThePornDB, FansDB), intelligent caching, rate limiting</p>
+            <p><strong>Requirements:</strong> Python 3.8+, External API keys</p>
+            <p><a href="plugins/PerformerSiteSync-1.0.0.zip" class="download-link">📥 Direct Download</a></p>
+        </div>
+
+        <div class="warning">
+            <strong>⚠️ Note:</strong> It may take a few minutes for GitHub Pages to update after new releases. 
+            If you don't see the latest plugins immediately, please wait a few minutes and refresh.
+        </div>
+
+        <h2>🛠️ For Developers</h2>
+        <p>Interested in contributing or creating your own plugins? Check out the main repository:</p>
+        <a href="https://github.com/ATreemanDork/treeman-stash-plugins" class="github-link">🔗 View on GitHub</a>
+
+        <h2>📖 Documentation</h2>
+        <ul>
+            <li><a href="https://github.com/ATreemanDork/treeman-stash-plugins#readme">Plugin Documentation</a></li>
+            <li><a href="https://docs.stashapp.cc/plugins/">Stash Plugin Guide</a></li>
+            <li><a href="https://github.com/ATreemanDork/treeman-stash-plugins/issues">Report Issues</a></li>
+        </ul>
+
+        <hr style="margin: 30px 0; border: none; border-top: 1px solid #eee;">
+        <p style="text-align: center; color: #666; font-size: 0.9em;">
+            Made with ❤️ for the Stash community | 
+            <a href="https://github.com/ATreemanDork/treeman-stash-plugins">Source Code</a> | 
+            <a href="https://atreemandork.github.io/index.yml">Plugin Source</a>
+        </p>
+    </div>
 </body>
 </html>
